@@ -1,8 +1,12 @@
 # Hangman Game
 
-React-style component-based Hangman Game, pure DOM, developed by ES6, webpack, mocha, etc.
+React-style component-based Hangman Game, pure DOM, developed by ES6, webpack, mocha, SVG, etc.
 
 By Eric Wong
+
+[=> DEMO](http://ele828.github.io/hangman/)
+
+# GUIDE
 
 ```
 npm install
