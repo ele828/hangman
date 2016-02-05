@@ -19,5 +19,5 @@ npm run test
 
 // make package
 webpack
-
+open http://localhost:8080
 ```
