@@ -6,7 +6,7 @@ By Eric Wong
 
 [=> DEMO](http://ele828.github.io/hangman/)
 
-# GUIDE
+# Guide
 
 ```
 npm install
