@@ -24,7 +24,7 @@ export default class Input {
     }
 
     restart() {
-        this._apper();
+        this._appear();
         this._setIndicator('');
     }
 
@@ -51,7 +51,7 @@ export default class Input {
             if (this.inputLetter.length > 0) {
                 observerFunc(evt, this.inputLetter);
                 this.inputLetter = '';
-                this._disapper();
+                this._disappear();
             } else {
                 errFunc();
             }
@@ -64,7 +64,7 @@ export default class Input {
         this.entry.innerHTML = this.inputLetter;
     }
 
-    _disapper() {
+    _disappear() {
         const inputSecene = document.querySelector('.input-wrap');
         inputSecene.style.opacity = 0;
         setTimeout(() => {
@@ -72,7 +72,7 @@ export default class Input {
         }, 900);
     }
 
-    _apper() {
+    _appear() {
         const inputSecene = document.querySelector('.input-wrap');
         inputSecene.style.display = 'block';
         setTimeout(() => {
