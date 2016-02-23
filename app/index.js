@@ -38,7 +38,7 @@ input.addListener(
     (evt, word) => {
         controller.setWord(word);
     },
-    // input invalid word
+    // invalid word
     () => {
         input.showInvalid();
     }

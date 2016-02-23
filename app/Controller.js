@@ -1,11 +1,11 @@
 import Utils from './Utils';
 
-// Game Logic implemantation
-// seprated from DOM manipulation
-// convenient to Unit Test
+// Game Logic implementation
+// isolated from DOM manipulation
+// convenient for Unit Test
 export default class Controller {
     constructor(params) {
-        // copy params to this context.
+        // copy params to `this` context.
         // { keyboard, wordDisp, missDisp, gameStatus, man }
         Utils.objectAssign(this, params);
         this.word = '';

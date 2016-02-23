@@ -31,7 +31,7 @@ export default class HangMan {
 		container.innerHTML += hangManTpl;
 		this.group = document.querySelector('.man');
 		const childNodes = this.group.childNodes;
-		for(var i = 0; i < childNodes.length; i++)
+		for(let i = 0; i < childNodes.length; i++)
 			if (childNodes[i].nodeType == 1)
 				this.parts.push(childNodes[i]);
 	}
