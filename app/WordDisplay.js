@@ -17,7 +17,7 @@ export default class Display {
     setLetter(letter, idx) {
         if (this.children.length === 0) {
             const childNodes = document.querySelector('.word-container').childNodes;
-            for(var i = 0; i < childNodes.length; i++)
+            for(let i = 0; i < childNodes.length; i++)
     			if (childNodes[i].nodeType == 1)
     				this.children.push(childNodes[i]);
         }

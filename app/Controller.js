@@ -98,7 +98,7 @@ export default class Controller {
 
     _appearIndex(letter) {
         let retval = [];
-        for (var i = 0; i < this.word.length; i++) {
+        for (let i = 0; i < this.word.length; i++) {
             if (this.word[i] === letter) {
                 retval.push({
                     letter: letter,

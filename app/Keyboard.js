@@ -18,7 +18,7 @@ export default class Keyboard {
 
     addListener( observerFunc ) {
         const keyNodes = this.keyNodes = document.querySelectorAll("#" + this.objID + ' .letter');
-        for(var i = 0; i < keyNodes.length; i++) {
+        for(let i = 0; i < keyNodes.length; i++) {
             keyNodes[i].addEventListener('click', observerFunc);
         }
     }
